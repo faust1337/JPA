@@ -2,7 +2,7 @@
 //Nombre del Restaurante, Capacidad del Restaurante, Cantidad Salones de
 //Conferencia, Cantidad de Suites, Cantidad de Limosinas, Precio de las Habitaciones.
 package Ej3Extra.Entidades;
-public class Hotel5E extends Hotel4E{
+public final class Hotel5E extends Hotel4E{
     private int cantSalonesConferencia, cantSuites, cantLimosinas;
 
     public Hotel5E(int cantSalonesConferencia, int cantSuites, int cantLimosinas, char gimnasio, String nombreRestaurante, int capacidadRestaurante, int cantHab, int cantCamas, int cantPisos, Integer precioHab, String nombre) {

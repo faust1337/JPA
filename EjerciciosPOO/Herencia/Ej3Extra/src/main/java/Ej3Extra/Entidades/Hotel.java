@@ -1,7 +1,5 @@
 package Ej3Extra.Entidades;
 
-import java.util.Comparator;
-
 public class Hotel extends Alojamiento{
     protected int cantHab, cantCamas, cantPisos;
     protected Integer precioHab;

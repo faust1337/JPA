@@ -14,9 +14,6 @@ public class Ej2Extra {
         mostrarSala(sala.getSala());
     }
     
-    
-    
-    
     public static Espectador cargarEspectador(){
         System.out.print("Nombre: ");
         String nombre = leer.next();

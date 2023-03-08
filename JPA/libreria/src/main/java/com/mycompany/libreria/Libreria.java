@@ -9,7 +9,7 @@ public class Libreria {
 
     public static void main(String[] args) throws Exception {
         AutorServicio autorsvc = new AutorServicio();
-        //Autor asd = autorsvc.cargarAutor();
+        //autorsvc.cargarAutor();
         //autorsvc.mostrarTabla();
         autorsvc.modificarAutor();
     }
